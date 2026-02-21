@@ -10,7 +10,7 @@ const SERVICOS = [
   { title: 'Motor de Partida', desc: 'Reparo e troca.', Icon: IconStarter },
   { title: 'Alternador', desc: 'Manutenção e substituição.', Icon: IconAlternator },
   { title: 'Baterias', desc: 'Venda e instalação.', Icon: IconBattery },
-  { title: 'Instalação Elétrica', desc: 'Sistema e completo.', Icon: IconCircuit },
+  { title: 'Instalação Elétrica', desc: 'Sistema completo.', Icon: IconCircuit },
 ] as const;
 
 const SOCORRO_ITENS = ['Pane elétrica', 'Carro não pega', 'Bateria arriada'] as const;
@@ -51,12 +51,12 @@ export function Servicos() {
 
       <div className="section-container relative z-10">
         <p className="eyebrow animate-on-scroll">O QUE FAZEMOS</p>
-        <h2 className="section-title max-w-3xl mb-2 animate-on-scroll flex flex-wrap items-center gap-x-2 gap-y-1">
-          Serviços Essenciais da{' '}
-          <span className="inline-flex items-center" aria-hidden>
-            <CheckIcon className="w-8 h-8 sm:w-9 sm:h-9 text-red shrink-0" />
-          </span>{' '}
-          <span className="text-red">Auto Elétrica Pedrão</span>
+        <h2 className="section-title max-w-3xl mb-2 animate-on-scroll">
+          <span className="block">Serviços Essenciais da</span>
+          <span className="inline-flex items-center gap-x-2 flex-wrap">
+            <CheckIcon className="w-8 h-8 sm:w-9 sm:h-9 text-red shrink-0" aria-hidden />
+            <span className="text-red">Auto Elétrica Pedrão</span>
+          </span>
         </h2>
         <div className="h-0.5 w-24 sm:w-32 bg-red/80 rounded-full mb-4 animate-on-scroll shadow-red-glow-sm" aria-hidden />
         <p className="text-gray text-sm sm:text-base max-w-2xl mb-12 animate-on-scroll">

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { WhatsAppFloat } from '@/components/WhatsAppFloat';
@@ -83,6 +84,18 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen font-sans relative">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-NV4Y8MND10"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NV4Y8MND10');
+          `}
+        </Script>
         <div
           className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#e10600_100%)]"
           aria-hidden

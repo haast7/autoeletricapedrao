@@ -42,8 +42,11 @@ export function SocorroAutomotivo() {
           <p className="text-gray text-lg mb-6">
           Prestamos serviços de elétrica automotiva e socorro em Caxambu e região, com atendimento direto e foco em resolver o problema sem enrolação.
           </p>
-          <p className="text-white font-medium mb-8">
-          Cidades atendidas: Baependi, Aiuruoca, São Lourenço, Pouso Alto, Cruzília, Itanhandu, Soledade de Minas, Conceição do Rio Verde, Serranos, Carvalhos e Seritinga.
+          <p className="text-white font-medium mb-4">
+            Cidades atendidas: Baependi, Aiuruoca, São Lourenço, Pouso Alto, Cruzília, Itanhandu, Soledade de Minas, Conceição do Rio Verde, Serranos, Carvalhos e Seritinga.
+          </p>
+          <p className="text-gray text-lg mb-8">
+            Sua cidade não está na lista? Fale com a gente. Avaliamos o atendimento na sua região.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
