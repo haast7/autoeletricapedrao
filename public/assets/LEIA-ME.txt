@@ -1,0 +1,13 @@
+Imagens do site em public/assets/assets/
+
+Arquivos (PNG):
+  logo.png
+  hero-accent.png
+  section-servicos.png
+  section-socorro.png
+  section-baterias.png
+  section-baterias-heliar.png   (fundo seção Heliar – use a imagem "ChatGPT Image 21 de fev. de 2026, 13_10_51.png" renomeada para este nome)
+
+Galeria (opcional, JPG ou PNG): gallery-1.jpg ... gallery-6.jpg
+
+Teste: http://localhost:3000/assets/assets/hero-accent.png

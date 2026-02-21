@@ -1,0 +1,66 @@
+PLUS DE QUALIDADE (OBRIGATÓRIO):
+Quero uma experiência “premium” e extremamente moderna, mas com performance alta. Faça como se fosse um site de marca/estúdio: minimalista, tipografia forte, grid perfeito e microinterações suaves.
+
+DIRETRIZES DE UI/UX (SEM LIBS PESADAS):
+1) Visual:
+- Use “dark premium” com preto profundo + vermelho como acento + branco para títulos + cinza para textos.
+- Crie um background elegante: gradiente radial + noise MUITO sutil + vinheta leve nas bordas (tudo via CSS/Tailwind).
+- Use linhas/contornos finos (borders em cinza escuro) e cards com blur discreto (glass muito sutil) apenas onde fizer sentido.
+- Iconografia: use SVGs inline simples (sem biblioteca externa), ou emojis mínimos somente se necessário (preferir SVG).
+
+2) Layout profissional (grid e hierarquia):
+- Container com max-w-6xl / 7xl, espaçamentos consistentes (8/12/16/24).
+- Seções sempre com: “eyebrow” pequeno (ex: “AUTO ELÉTRICA EM CAXAMBU”), H2 forte e um parágrafo curto.
+- Use variação de tamanho de fonte: H1 grande, H2 médio forte, body legível.
+- Crie separadores de seção modernos (linha fina + label).
+
+3) Header e navegação (experiência top):
+- Header sticky com blur/backdrop e sombra suave ao rolar.
+- Itens do menu com estado ativo baseado no scroll (IntersectionObserver) e highlight discreto.
+- Menu mobile em drawer (slide) leve com foco em acessibilidade (trap focus simples, ESC fecha).
+
+4) Hero “uau” (sem exagero):
+- Use o banner como destaque com overlay escuro e um recorte moderno (ex: máscara/clip-path simples ou borda diagonal discreta).
+- Adicione um elemento de “linha” (stroke) seguindo a estética automotiva (ex: traço vermelho fino).
+- Faça os CTAs enormes e claros, com microinteração ao hover (sem animações pesadas).
+
+5) CTAs muito bem feitos:
+- Botão principal (WhatsApp) com design premium:
+  - gradiente sutil no vermelho, sombra leve, hover com lift (translate-y-0.5).
+  - texto “Chamar no WhatsApp” + microcopy “Resposta rápida”.
+- Botão secundário (Ligar agora) estilo outline.
+- CTA flutuante no mobile (barra inferior) com 2 botões: WhatsApp e Ligar.
+
+6) Seções com microinterações:
+- Animações suaves com CSS apenas:
+  - fade + translate ao entrar em viewport (IntersectionObserver + classes).
+  - duração 250–450ms, easing suave.
+- Sem framer-motion e sem bibliotecas de animação.
+
+7) Galeria/carrossel (muito leve e moderno):
+- Carrossel com:
+  - swipe mobile
+  - setas e dots discretos
+  - lazy-loading das imagens
+  - skeleton loading simples
+- Use “snap scrolling” (CSS scroll-snap) para ser leve e fluido.
+
+8) SEO e confiança (sem poluição):
+- Inserir blocos curtos de confiança:
+  - “Atendimento direto”
+  - “Diagnóstico rápido”
+  - “Linha leve e pesada”
+- Mas sem promessas do tipo “o melhor”, “número 1”, etc.
+- Reforçar Caxambu e região naturalmente no texto (sem keyword stuffing).
+
+9) Performance (regras duras):
+- Evitar imagens gigantes: usar next/image com sizes corretos.
+- Evitar JS desnecessário: componentes simples, sem libs externas.
+- Priorizar LCP no Hero (banner otimizado, overlay CSS).
+- Lighthouse alvo: 90+ em Performance/SEO/A11y.
+
+10) Entrega final:
+- Quero um resultado que pareça site profissional de verdade.
+- Se necessário, crie um pequeno “design system” local:
+  - classes utilitárias (ex: btn-primary, btn-outline, section-title)
+  - cores e tokens no tailwind config ou CSS variables.
