@@ -18,7 +18,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'AutoRepair',
   name: 'Auto Elétrica Pedrão',
-  image: `${siteUrl}/assets/assets/banner.png`,
+  image: `${siteUrl}/assets/assets/autoeletricapedraogoogle.png`,
   description: 'Auto elétrica em Caxambu – MG. Linha leve e pesada, motor de partida, alternador, baterias, instalação elétrica e socorro automotivo.',
   address: {
     '@type': 'PostalAddress',
@@ -57,12 +57,14 @@ export const metadata: Metadata = {
     siteName: 'Auto Elétrica Pedrão',
     locale: 'pt_BR',
     type: 'website',
-    images: [{ url: '/assets/assets/banner.png', width: 1200, height: 630, alt: 'Auto Elétrica Pedrão - Caxambu MG' }],
+    /** Imagem ao compartilhar link (WhatsApp, Facebook etc.). Dimensões recomendadas: 1200×630 px. */
+    images: [{ url: '/assets/assets/autoeletricapedraogoogle.png', width: 1200, height: 630, alt: 'Auto Elétrica Pedrão - Caxambu MG' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Auto Elétrica em Caxambu – Auto Elétrica Pedrão',
     description: 'Elétrica automotiva para linha leve e pesada. Socorro automotivo em Caxambu e região.',
+    images: ['/assets/assets/autoeletricapedraogoogle.png'],
   },
   robots: { index: true, follow: true },
   alternates: { canonical: siteUrl },

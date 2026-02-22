@@ -19,8 +19,10 @@ export const images = {
 /** Caminho da pasta da galeria (public/assets/galeria) */
 export const GALERIA_PATH = '/assets/galeria';
 
-/** Nomes dos arquivos de imagem na pasta public/assets/galeria. */
+/** Nomes dos arquivos de imagem na pasta public/assets/galeria. Ordem = ordem no carrossel. */
 export const GALERIA_IMAGES = [
+  '11.png',
+  '10.png',
   '2022-03-18.webp',
   '2022-05-10.webp',
   '2024-01-15 (1).webp',

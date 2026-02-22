@@ -4,6 +4,8 @@ import { useRef, useState, useEffect } from 'react';
 import { images, GALERIA_IMAGES } from '@/lib/assets';
 
 const ALT_BY_INDEX = [
+  'Fachada Auto Elétrica Pedrão – oficina e rua em Caxambu',
+  'Auto Elétrica Pedrão – atendimento e região',
   'Oficina Auto Elétrica Pedrão',
   'Atendimento na oficina',
   'Serviços de auto elétrica',
